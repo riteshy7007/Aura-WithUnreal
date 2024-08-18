@@ -1,0 +1,38 @@
+# Ignore the following directories and files that should not be versioned.
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.opensdf
+*.log
+*.lock
+*.log.gz
+
+# Ignore Visual Studio Code workspace files.
+*.code-workspace
+
+# Ignore auto-generated Visual Studio files.
+.vs/
+
+# Ignore Unreal Plugins binaries.
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Ignore Build Configuration files.
+*.csproj
+*.sln
+*.userprefs
+*.sqlite
+
+# Ignore macOS-specific files.
+.DS_Store
+
+# Ignore hidden system files.
+Thumbs.db
